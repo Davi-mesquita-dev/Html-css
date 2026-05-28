@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    height: auto;
+    width: auto;
+    background:color(srgb red green blue)
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h1#sla{
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 31, 87);
+
+}

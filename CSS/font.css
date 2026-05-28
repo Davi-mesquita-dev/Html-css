@@ -1,0 +1,18 @@
+@font-face {
+    font-family:sunkies;
+    src: url('fontes/Teenage\ Sunkies.otf') format('opentype');
+}
+h1{
+    font-family:sunkies;
+    background-color: black;
+    color: white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
