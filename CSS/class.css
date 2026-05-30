@@ -1,0 +1,31 @@
+body{
+    background-color: darkgrey;
+}
+div{
+    color: rgb(80, 80, 219);
+    background-color: lightgray;
+    
+}
+a{
+    color: rgb(131, 145, 230);
+}
+div > a:hover{
+    color:rgb(123, 108, 255)
+}
+.title1{
+    color: rgb(78, 68, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(98, 68, 126);
+}
+.p1:hover{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(135, 132, 138);
+}
+.p2::after{
+    content: '✔️';
+}
