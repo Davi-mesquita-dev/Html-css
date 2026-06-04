@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    td{
+        border: 1px solid black;
+        width: 400px;
+        height: 50px;
+        text-align: center;
+    }
+    
+    td.roxo{
+        background-color: rgb(138, 78, 194);
+    }
+
+    td.rosa{
+        background-color: rgb(206, 37, 65);
+    }
+
+    td.azul{
+        background-color: rgb(41, 82, 172);
+    }
+
+    tr.primeira-linha{
+        background-color: lightgray;
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <tr class="primeira-linha">
+            <td>1A</td>
+            <td>1B</td>
+            <td>1C</td>
+        </tr>
+        <tr>
+            <td class="roxo">2A</td>
+            <td class="rosa">2B</td>
+            <td class="azul">3B</td>
+        </tr>
+        <tr>
+            <td>3A</td>
+            <td>3B</td>
+            <td>4B</td>
+        </tr>
+    </table>
+</body>
+</html>
