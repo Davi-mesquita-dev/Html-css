@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    caption{
+        background-color: rgb(92, 92, 92);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    td, th, tr{
+        border: solid 1px black;
+    }
+    
+    tr, td, th{
+        width: 300px;
+        height: 30px;
+        padding: 10px;
+    }
+
+    .nota{
+        text-align: end;
+    }
+    
+    #nota{
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .media{
+        background-color: rgb(56, 56, 56);
+        color: white;
+    }
+</style>
+<body>
+    <table>
+        <caption>Boletim</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" class="media">Área</th>
+                    <th rowspan="2" class="media">Disciplinas</th>
+                    <th colspan="2" class="media">Notas</th>
+                    <th rowspan="2" class="media">Média</th>
+                </tr>
+                
+                <tr>
+                <td class="media">Nota 1</td>
+                <td class="media">Nota 2</td>
+                </tr>
+            </thead>
+
+        <tr>
+            <th rowspan="2">Exatas</th>
+            <td>Matemática</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+        </tr>
+
+        <tr>
+            <td>Física</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+        </tr>
+
+        <tr>
+            <th colspan="4" class="media">Média de Exatas</th>
+            <td id="nota" class="media">10</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Humanas</th>
+            <td>História</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+        </tr>
+
+        <tr>
+            <td>Geográfia</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+            <td class="nota">10</td>
+        </tr>
+
+            <tr>
+                <th colspan="4" class="media">Média de Humanas</th>
+                <td id="nota" class="media">10</td>
+            </tr>
+    </table>
+</body>
+</html>
